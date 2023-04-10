@@ -1,0 +1,44 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headerPrincipal{
+    background-image: url("../BarberImagenes/zxx.jpg");
+    padding: 15px 0;
+}
+
+.caja{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.headerPrincipal .caja{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerPrincipal-nav .headerPrincipal-paginas{
+    display: flex;
+    align-items: center;
+}
+
+.headerPrincipal-nav a{
+    text-transform: uppercase;
+    color: #beb4b4;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    color: #efb810;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:480px){
+    .caja .bloque1 .difecontenido .googlem .video footer{
+        width: auto;
+    }
+}

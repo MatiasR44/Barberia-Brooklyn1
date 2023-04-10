@@ -1,0 +1,74 @@
+.servicios{
+    background-image: url("../BarberImagenes/broklyn1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 3em 0;
+}
+
+.servicios__titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #030303;
+    margin: 2em 10em;
+    padding: 1rem;
+    clear: left;
+    border-bottom: 1px solid rgb(236, 183, 117);
+}
+
+.servicios__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicios__caja{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 210px;
+    margin-bottom: 3em;
+    border: 2.5px solid #030303;
+    border-radius: 10px;
+}
+
+.servicios__caja-titulo{
+    font-weight: 900;
+    font-size: 1.8rem;
+    font-family: "Merriweather";
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 0.5em;
+    color: #030303;
+}
+
+.servicios__contenido{
+    padding: 0 15%;
+}
+.servicios__caja:hover {
+    font-size: 33px;
+    box-shadow: 10px 10px 25px 10px rgb(236, 183, 117);
+    background: #fefefe;
+}
+.servicios-descripcion{
+    font-size: 22px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #030303;
+    font-weight: 900;
+}
+.servicios-precio{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    color: #030303;
+}
+
+@media screen and (min-width: 0) {
+    .servicios__titulo{
+        margin: 2em 5em;
+    }
+}

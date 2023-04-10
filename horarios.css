@@ -1,0 +1,33 @@
+.servicios__horarios{
+    background: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.horarios__titulo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.75em;
+    font-family: "Merriweather";
+}
+
+.horarios__descripcion{
+    margin-left: 30px;
+    font-size: 1.75em;
+}
+
+.horarios__boton{
+    background: #030303;
+    padding: 1rem;
+    margin-left: 1.5em;border-radius: 15px;
+}
+
+.horarios__link{
+    text-decoration: none;
+    color: rgb(236, 183, 117);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}

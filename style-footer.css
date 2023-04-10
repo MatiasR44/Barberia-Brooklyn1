@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+    background: #131212; 
+    padding: 40px;
+}   
+
+.copyrigth{
+    color: rgb(236, 183, 117);
+    font-weight: 300;
+    font-size: 13px;
+    margin: 20px;
+}

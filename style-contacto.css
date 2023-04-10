@@ -1,0 +1,106 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: rgb(145, 77, 223);
+    padding: 20px 0;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;   
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 5px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+nav a{
+    display: inline-block;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+.formulario{
+    margin: 40px 0;
+}
+.formulario label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.input-padron{
+    display: block; 
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+fieldset{
+    margin: 15px 0;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 35%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(145, 77, 223);
+    border: none;
+    border-radius: 5px;
+    margin: 25px 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: #c78c19;
+    transform: scale(1.2) rotate(360deg);
+}
+.enviar:active{
+    background: green;
+}
+table{
+    margin: 20px 0;
+    width: 425px;
+}
+thead{
+    background: rgb(145, 77, 223);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.diahora{
+    background: #555555;
+    color: white;
+    text-transform: uppercase;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+footer{
+    text-align: center;
+    background: url("C:/Users/Naly/Pictures/Saved Pictures/Barber Imagenes/bg.jpg");
+    padding: 40px;
+}   
+.copyrigth{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
